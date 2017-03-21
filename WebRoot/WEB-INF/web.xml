@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginClServlet</servlet-name>
+    <servlet-class>com.servlet.loginClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_newServlet</servlet-name>
+    <servlet-class>com.servlet.cus_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ccos</servlet-name>
+    <servlet-class>com.servlet.ccos</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.cus__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_info_detail</servlet-name>
+    <servlet-class>com.servlet.cus_info_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_show_to_modify</servlet-name>
+    <servlet-class>com.servlet.cus_show_to_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.cus_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_info_delete</servlet-name>
+    <servlet-class>com.servlet.cus_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales_newServlet</servlet-name>
+    <servlet-class>com.servlet.sales_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_newServlet</servlet-name>
+    <servlet-class>com.servlet.dingdan_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.dingdan__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_info_detail</servlet-name>
+    <servlet-class>com.servlet.dingdan_info_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_info_delete</servlet-name>
+    <servlet-class>com.servlet.dingdan_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_show_to_modify</servlet-name>
+    <servlet-class>com.servlet.dingdan_show_to_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.dingdan_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fapiao_newServlet</servlet-name>
+    <servlet-class>com.servlet.fapiao_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.sales__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales_info_detail</servlet-name>
+    <servlet-class>com.servlet.sales_info_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fapiao__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.fapiao__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales_info_delete</servlet-name>
+    <servlet-class>com.servlet.sales_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales_show_to_modify</servlet-name>
+    <servlet-class>com.servlet.sales_show_to_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.sales_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gift_newServlet</servlet-name>
+    <servlet-class>com.servlet.gift_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gift__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.gift__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gift_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.gift_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gift_info_delete</servlet-name>
+    <servlet-class>com.servlet.gift_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>team_newServlet</servlet-name>
+    <servlet-class>com.servlet.team_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>team__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.team__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>team_info_detail</servlet-name>
+    <servlet-class>com.servlet.team_info_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>team_info_delete</servlet-name>
+    <servlet-class>com.servlet.team_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>team_show_to_modify</servlet-name>
+    <servlet-class>com.servlet.team_show_to_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>team_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.team_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>shoukuan_newServlet</servlet-name>
+    <servlet-class>com.servlet.shoukuan_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>shouzhitongjiServlet</servlet-name>
+    <servlet-class>com.servlet.shouzhitongjiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>visit_newServlet</servlet-name>
+    <servlet-class>com.servlet.visit_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>visit__dan_searchServlet</servlet-name>
+    <servlet-class>com.servlet.visit__dan_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>visit_info_detail</servlet-name>
+    <servlet-class>com.servlet.visit_info_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fapiao_info_detail</servlet-name>
+    <servlet-class>com.servlet.fapiao_info_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fapiao_show_to_modify</servlet-name>
+    <servlet-class>com.servlet.fapiao_show_to_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fapiao_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.fapiao_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fapiao_info_delete</servlet-name>
+    <servlet-class>com.servlet.fapiao_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_new_cus_cunzai</servlet-name>
+    <servlet-class>com.ajax.cus_new_cus_cunzai</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan__duo_searchServlet</servlet-name>
+    <servlet-class>com.servlet.dingdan__duo_searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_new_search1</servlet-name>
+    <servlet-class>com.servlet.duizhang_new_search1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_creat</servlet-name>
+    <servlet-class>com.servlet.duizhang_creat</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sales_new_sales_cunzai</servlet-name>
+    <servlet-class>com.ajax.sales_new_sales_cunzai</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_new_dingdan_cunzai</servlet-name>
+    <servlet-class>com.ajax.dingdan_new_dingdan_cunzai</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_creat2</servlet-name>
+    <servlet-class>com.servlet.duizhang_creat2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_search_date</servlet-name>
+    <servlet-class>com.servlet.duizhang_search_date</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_search_detail</servlet-name>
+    <servlet-class>com.servlet.duizhang_search_detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gift_info_modify</servlet-name>
+    <servlet-class>com.servlet.gift_info_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>danwei_new_danwei_cunzai</servlet-name>
+    <servlet-class>com.ajax.danwei_new_danwei_cunzai</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>keshi_newServlet</servlet-name>
+    <servlet-class>com.servlet.keshi_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>keshi_dan_search</servlet-name>
+    <servlet-class>com.servlet.keshi_dan_search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>keshi_info_modify</servlet-name>
+    <servlet-class>com.servlet.keshi_info_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>keshi_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.keshi_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>keshi_info_delete</servlet-name>
+    <servlet-class>com.servlet.keshi_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>danwei_newServlet</servlet-name>
+    <servlet-class>com.servlet.danwei_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>danwei_dan_search</servlet-name>
+    <servlet-class>com.servlet.danwei_dan_search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>danwei_info_modify</servlet-name>
+    <servlet-class>com.servlet.danwei_info_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>danwei_modifyServlet</servlet-name>
+    <servlet-class>com.servlet.danwei_modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>danwei_info_delete</servlet-name>
+    <servlet-class>com.servlet.danwei_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>user_password_modify</servlet-name>
+    <servlet-class>com.servlet.user_password_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_info_delete</servlet-name>
+    <servlet-class>com.servlet.duizhang_info_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>shoukuan_shishou</servlet-name>
+    <servlet-class>com.ajax.shoukuan_shishou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gongzi_tongji</servlet-name>
+    <servlet-class>com.calculate.gongzi_tongji</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_new_p</servlet-name>
+    <servlet-class>com.pre_pro.cus_new_p</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_new_getdanwei_name</servlet-name>
+    <servlet-class>com.ajax.cus_new_getdanwei_name</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_new_getkeshi_name</servlet-name>
+    <servlet-class>com.ajax.cus_new_getkeshi_name</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_new_getcity</servlet-name>
+    <servlet-class>com.ajax.cus_new_getcity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_new_getarea_name</servlet-name>
+    <servlet-class>com.ajax.cus_new_getarea_name</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>price_newServlet</servlet-name>
+    <servlet-class>com.servlet.price_newServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>price__dan_search</servlet-name>
+    <servlet-class>com.servlet.price__dan_search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>price_modify</servlet-name>
+    <servlet-class>com.servlet.price_modify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>price_delete</servlet-name>
+    <servlet-class>com.servlet.price_delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_search</servlet-name>
+    <servlet-class>com.servlet.duizhang_search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>duizhang_search_p</servlet-name>
+    <servlet-class>com.pre_pro.duizhang_search_p</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <servlet-class>com.export.ExportExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_new_p</servlet-name>
+    <servlet-class>com.pre_pro.dingdan_new_p</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dingdan_new_getcus_name</servlet-name>
+    <servlet-class>com.ajax.dingdan_new_getcus_name</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Inport_xls</servlet-name>
+    <servlet-class>com.export.Inport_xls</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginClServlet</servlet-name>
+    <url-pattern>/loginClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_newServlet</servlet-name>
+    <url-pattern>/cus_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus__dan_searchServlet</servlet-name>
+    <url-pattern>/cus__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_info_detail</servlet-name>
+    <url-pattern>/cus_info_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_show_to_modify</servlet-name>
+    <url-pattern>/cus_show_to_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_modifyServlet</servlet-name>
+    <url-pattern>/cus_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_info_delete</servlet-name>
+    <url-pattern>/cus_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales_newServlet</servlet-name>
+    <url-pattern>/sales_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_newServlet</servlet-name>
+    <url-pattern>/dingdan_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan__dan_searchServlet</servlet-name>
+    <url-pattern>/dingdan__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_info_detail</servlet-name>
+    <url-pattern>/dingdan_info_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_info_delete</servlet-name>
+    <url-pattern>/dingdan_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_show_to_modify</servlet-name>
+    <url-pattern>/dingdan_show_to_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_modifyServlet</servlet-name>
+    <url-pattern>/dingdan_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fapiao_newServlet</servlet-name>
+    <url-pattern>/fapiao_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales__dan_searchServlet</servlet-name>
+    <url-pattern>/sales__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales_info_detail</servlet-name>
+    <url-pattern>/sales_info_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fapiao__dan_searchServlet</servlet-name>
+    <url-pattern>/fapiao__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales_info_delete</servlet-name>
+    <url-pattern>/sales_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales_show_to_modify</servlet-name>
+    <url-pattern>/sales_show_to_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales_modifyServlet</servlet-name>
+    <url-pattern>/sales_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gift_newServlet</servlet-name>
+    <url-pattern>/gift_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gift__dan_searchServlet</servlet-name>
+    <url-pattern>/gift__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gift_modifyServlet</servlet-name>
+    <url-pattern>/gift_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gift_info_delete</servlet-name>
+    <url-pattern>/gift_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>team_newServlet</servlet-name>
+    <url-pattern>/team_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>team__dan_searchServlet</servlet-name>
+    <url-pattern>/team__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>team_info_detail</servlet-name>
+    <url-pattern>/team_info_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>team_info_delete</servlet-name>
+    <url-pattern>/team_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>team_show_to_modify</servlet-name>
+    <url-pattern>/team_show_to_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>team_modifyServlet</servlet-name>
+    <url-pattern>/team_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoukuan_newServlet</servlet-name>
+    <url-pattern>/shoukuan_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shouzhitongjiServlet</servlet-name>
+    <url-pattern>/shouzhitongjiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>visit_newServlet</servlet-name>
+    <url-pattern>/visit_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>visit__dan_searchServlet</servlet-name>
+    <url-pattern>/visit__dan_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>visit_info_detail</servlet-name>
+    <url-pattern>/visit_info_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fapiao_info_detail</servlet-name>
+    <url-pattern>/fapiao_info_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fapiao_show_to_modify</servlet-name>
+    <url-pattern>/fapiao_show_to_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fapiao_modifyServlet</servlet-name>
+    <url-pattern>/fapiao_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fapiao_info_delete</servlet-name>
+    <url-pattern>/fapiao_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_new_cus_cunzai</servlet-name>
+    <url-pattern>/cus_new_cus_cunzai</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan__duo_searchServlet</servlet-name>
+    <url-pattern>/dingdan__duo_searchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_new_search1</servlet-name>
+    <url-pattern>/duizhang_new_search1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_creat</servlet-name>
+    <url-pattern>/duizhang_creat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sales_new_sales_cunzai</servlet-name>
+    <url-pattern>/sales_new_sales_cunzai</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_new_dingdan_cunzai</servlet-name>
+    <url-pattern>/dingdan_new_dingdan_cunzai</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_creat2</servlet-name>
+    <url-pattern>/duizhang_creat2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_search_date</servlet-name>
+    <url-pattern>/duizhang_search_date</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_search_detail</servlet-name>
+    <url-pattern>/duizhang_search_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gift_info_modify</servlet-name>
+    <url-pattern>/gift_info_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>danwei_new_danwei_cunzai</servlet-name>
+    <url-pattern>/danwei_new_danwei_cunzai</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>keshi_newServlet</servlet-name>
+    <url-pattern>/keshi_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>keshi_dan_search</servlet-name>
+    <url-pattern>/keshi_dan_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>keshi_info_modify</servlet-name>
+    <url-pattern>/keshi_info_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>keshi_modifyServlet</servlet-name>
+    <url-pattern>/keshi_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>keshi_info_delete</servlet-name>
+    <url-pattern>/keshi_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>danwei_newServlet</servlet-name>
+    <url-pattern>/danwei_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>danwei_dan_search</servlet-name>
+    <url-pattern>/danwei_dan_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>danwei_info_modify</servlet-name>
+    <url-pattern>/danwei_info_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>danwei_modifyServlet</servlet-name>
+    <url-pattern>/danwei_modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>danwei_info_delete</servlet-name>
+    <url-pattern>/danwei_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>user_password_modify</servlet-name>
+    <url-pattern>/user_password_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_info_delete</servlet-name>
+    <url-pattern>/duizhang_info_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoukuan_shishou</servlet-name>
+    <url-pattern>/shoukuan_shishou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gongzi_tongji</servlet-name>
+    <url-pattern>/gongzi_tongji</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_new_p</servlet-name>
+    <url-pattern>/cus_new_p</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_new_getdanwei_name</servlet-name>
+    <url-pattern>/cus_new_getdanwei_name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_new_getkeshi_name</servlet-name>
+    <url-pattern>/cus_new_getkeshi_name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_new_getcity</servlet-name>
+    <url-pattern>/cus_new_getcity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_new_getarea_name</servlet-name>
+    <url-pattern>/cus_new_getarea_name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>price_newServlet</servlet-name>
+    <url-pattern>/price_newServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>price__dan_search</servlet-name>
+    <url-pattern>/price__dan_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>price_modify</servlet-name>
+    <url-pattern>/price_modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>price_delete</servlet-name>
+    <url-pattern>/price_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_search</servlet-name>
+    <url-pattern>/duizhang_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>duizhang_search_p</servlet-name>
+    <url-pattern>/duizhang_search_p</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <url-pattern>/ExportExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_new_p</servlet-name>
+    <url-pattern>/dingdan_new_p</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dingdan_new_getcus_name</servlet-name>
+    <url-pattern>/dingdan_new_getcus_name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Inport_xls</servlet-name>
+    <url-pattern>/Inport_xls</url-pattern>
+  </servlet-mapping>
+</web-app>
